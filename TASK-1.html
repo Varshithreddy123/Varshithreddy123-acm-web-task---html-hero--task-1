@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>my Website</title>
+  <style>
+    /* Reset some default styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* Add a beautiful background */
+    body {
+      background-image: url("background.jpg");
+      background-size: cover;
+      background-position: center;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Style to the navigation */
+    nav {
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 10px;
+    }
+
+    nav ul {
+      list-style-type: none;
+      text-align: center;
+    }
+
+    nav ul li {
+      display: inline-block;
+      margin-right: 20px;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    /* Style to the landing page */
+    .hero {
+      text-align: center;
+      margin-top: 200px;
+      color: #111010;
+    }
+
+    .hero h1 {
+      font-size: 60px;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      font-size: 30px;
+      margin-bottom: 40px;
+    }
+
+    .hero .btn {
+      padding: 10px 20px;
+      background-color: #ff9900;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
+    /* Style to the about section */
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 40px;
+      background-color: rgba(255, 255, 255, 0.8);
+      color: #333;
+      text-align: center;
+    }
+
+    .container h2 {
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+
+    .container p {
+      font-size: 18px;
+      margin-bottom: 30px;
+    }
+
+    /* Style the contact section */
+    .container ul {
+      list-style-type: none;
+      margin-bottom: 30px;
+    }
+
+    .container ul li {
+      margin-bottom: 10px;
+    }
+
+    .container ul li:before {
+      content: "• ";
+    }
+
+    .container ul li:last-child {
+      margin-bottom: 0;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation -->
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Landing Page -->
+  <header id="home">
+    <div class="hero">
+      <h1>Welcome to my site !</h1>
+      <p>Experience the magic of our enchanting world.</p>
+      <a href="#about" class="btn">Learn More</a>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="container">
+      <h2>About me</h2>
+      <p>I am a student in amrita school of engineering ece department , amritapuri campus iam eager to to explore the new domains every time.iam intersted to join with a team who is more intersted in these type of domains.</p>
+      </p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p>For any inquiries or to join as a team with me , please reach out to us:</p>
+      <ul>
+        <li>Email: info@my website.com</li>
+        <li>Phone: 123-456-7890</li>
+        <li>Address: 123 Enchanted Lane, my City</li>
+      </ul>
+    </div>
+  </section>
+</body>
+</html>
